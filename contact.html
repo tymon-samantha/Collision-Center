@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+   
+    <title>Accident Reporting Form</title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <!-- Custom styles for this template go here -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="csn-image">
+      <img src="img/CSNFinal.jpg" class="header-image">
+    </div><!-- end header -->
+    <div class="request-form">
+      <form>
+        <div class="form-inline">
+
+          <div class="form-group">
+            <label id="name" for="name">Full Name*</label>
+            <input class="form-control name-box" type="textBox" id="name" placeholder="Full Name">
+            <p id="visible-contact"></p>
+          </div><!-- end name -->
+
+          <div class="form-group form-inline">
+            <label id="address" for="address">Address*</label>
+            <input class="form-control number-box" type="text" required="required" placeholder="Address">
+            <p id="visible-address"></p>
+          </div><!-- end address -->
+
+          <div class="form-group form-inline">
+            <label id="phone-number" for="number">Phone Number*</label>
+            <input class="form-control number-box" type="tel" minlength="9" required="required" id="number" placeholder="Phone Number">
+            <p id="visible-number"></p>
+          </div><!-- end phone number -->
+
+          <div class="form-group form-inline">
+            <label id="box-name" for="email">Email*</label>
+            <input class="form-control email-box" type="email" id="email" placeholder="Email Address" required="required">
+            <p id="visible-email"></p>
+          </div><!-- end email -->
+
+          <div class="form-group form-inline">
+            <label id="date" for="date">Date of Accident*</label>
+            <input class="form-control number-box" required="required" type="date" placeholder="Date of Accident">
+          </div><!-- end date of accident -->
+
+          <div class="form-group form-inline">
+            <label id="insurance" for="text">Name of Insurance Company and/or Broker*</label>
+            <input class="form-control number-box" required="required" type="text" placeholder="Name of Insurance Company and/or Broker">
+          </div><!-- end insurance -->
+
+          <button type="submit" id="button" class="btn btn-primary btn-md">Submit &raquo;</button>
+        </div><!-- end inline -->
+      </form>
+      <div class="bottom">
+        <img src="img/csnlogo.png" class="bottom-image">
+      </div><!-- end bottom -->
+    </div>
+  </body>

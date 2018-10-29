@@ -1,0 +1,70 @@
+body {
+  position: relative;
+}
+
+* {
+  margin-left: 2%;
+  margin-right: 2%
+}
+
+div {
+  margin-top: 5%;
+}
+
+.roadside-assistance, 
+.car-accident {
+  border-bottom-style: dashed;
+}
+
+/* CSN Image Style */
+.csn-image {
+  margin-right: 0;
+  margin-left: 0;
+}
+.header-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.btn {
+  margin-top: 2%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Car Accident Style */
+.car-accident {
+  margin-bottom: 5%;
+}
+
+/*** Typography ***/
+
+h1 {
+  color: #0068af;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h2, 
+#h2-link {
+  font-size: 1rem;
+}
+
+/* CSN Image Typography */
+.btn {
+  font-size: .8rem;
+  font-weight: bold;
+}
+
+/* Roadside Assistance Typography */
+
+
+/* Car Accident Typography */
+.car-accident>h2, 
+#h2-link {
+  font-weight: bold; 
+}
