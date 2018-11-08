@@ -25,12 +25,12 @@
     <div class="csn-image">
       <img src="img/CSNFinal.jpg" class="header-image">
     </div><!-- end header -->
-    <div class="request-form">
-      <form>
+    <div class="contaniner request-form">
+      <form method="post" action="contact.php">
         <div class="form-inline">
 
           <div class="form-group">
-            <label id="name" for="name">Full Name*</label>
+            <label id="name" for="name" name="name">Full Name*</label>
             <input class="form-control name-box" type="textBox" id="name" placeholder="Full Name">
             <p id="visible-contact"></p>
           </div><!-- end name -->
@@ -63,6 +63,11 @@
             <input class="form-control number-box" required="required" type="text" placeholder="Name of Insurance Company and/or Broker">
           </div><!-- end insurance -->
 
+          <div class="form-group form-inline">
+            <label id="details" for="text">Details*</label>
+            <input class="form-control number-box details-box" required="required" type="text" placeholder="Details of the Accident">
+          </div><!-- end details -->
+
           <button type="submit" id="button" class="btn btn-primary btn-md">Submit &raquo;</button>
         </div><!-- end inline -->
       </form>
@@ -70,4 +75,10 @@
         <img src="img/csnlogo.png" class="bottom-image">
       </div><!-- end bottom -->
     </div>
+
+    <!-- Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>        
+    s<script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
   </body>

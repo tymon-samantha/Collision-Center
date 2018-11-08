@@ -41,6 +41,12 @@ div {
   margin-bottom: 5%;
 }
 
+
+/* Form Boxes Style */
+.details-box {
+  padding: 0rem 4rem 9rem .6rem;
+}
+
 /*** Typography ***/
 
 h1 {
