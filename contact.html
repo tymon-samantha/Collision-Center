@@ -26,46 +26,46 @@
       <img src="img/CSNFinal.jpg" class="header-image">
     </div><!-- end header -->
     <div class="contaniner request-form">
-      <form method="post" action="contact.php">
+      <form method="POST" action="contact.php">
         <div class="form-inline">
 
           <div class="form-group">
-            <label id="name" for="name" name="name">Full Name*</label>
-            <input class="form-control name-box" type="textBox" id="name" placeholder="Full Name">
+            <label id="name" for="name">Full Name*</label>
+            <input class="form-control name-box" type="textBox" id="name" name="name" placeholder="Full Name">
             <p id="visible-contact"></p>
           </div><!-- end name -->
 
           <div class="form-group form-inline">
             <label id="address" for="address">Address*</label>
-            <input class="form-control number-box" type="text" required="required" placeholder="Address">
+            <input class="form-control number-box" type="text" required="required" name="address" placeholder="Address">
             <p id="visible-address"></p>
           </div><!-- end address -->
 
           <div class="form-group form-inline">
             <label id="phone-number" for="number">Phone Number*</label>
-            <input class="form-control number-box" type="tel" minlength="9" required="required" id="number" placeholder="Phone Number">
+            <input class="form-control number-box" type="tel" minlength="9" required="required" id="number" name="phone" placeholder="Phone Number">
             <p id="visible-number"></p>
           </div><!-- end phone number -->
 
           <div class="form-group form-inline">
             <label id="box-name" for="email">Email*</label>
-            <input class="form-control email-box" type="email" id="email" placeholder="Email Address" required="required">
+            <input class="form-control email-box" type="email" id="email" name="email" placeholder="Email Address" required="required">
             <p id="visible-email"></p>
           </div><!-- end email -->
 
           <div class="form-group form-inline">
             <label id="date" for="date">Date of Accident*</label>
-            <input class="form-control number-box" required="required" type="date" placeholder="Date of Accident">
+            <input class="form-control number-box" required="required" type="date" name="date" placeholder="Date of Accident">
           </div><!-- end date of accident -->
 
           <div class="form-group form-inline">
             <label id="insurance" for="text">Name of Insurance Company and/or Broker*</label>
-            <input class="form-control number-box" required="required" type="text" placeholder="Name of Insurance Company and/or Broker">
+            <textarea class="form-control number-box" required="required" type="text" name="insurance" rows="2" cols="25" placeholder="Name of Insurance Company and/or Broker"></textarea>
           </div><!-- end insurance -->
 
           <div class="form-group form-inline">
             <label id="details" for="text">Details*</label>
-            <textarea class="form-control number-box details-box" required="required" type="text" placeholder="Details of the Accident"></textarea>
+            <textarea type="text" class="form-control number-box details-box" required="required" name="message" rows="6" cols="27" placeholder="Details of the Accident"></textarea>
           </div><!-- end details -->
 
           <button type="submit" id="button" class="btn btn-primary btn-md">Submit &raquo;</button>
