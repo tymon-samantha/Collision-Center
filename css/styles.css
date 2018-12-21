@@ -17,9 +17,10 @@ div {
 }
 
 /* CSN Image Style */
-.csn-image {
-  margin-right: 0;
-  margin-left: 0;
+.csn-image,
+#csnlogo {
+  margin-right: 0%;
+  margin-left: 0%;
 }
 .header-image {
   display: block;
@@ -41,6 +42,10 @@ div {
   margin-bottom: 5%;
 }
 
+/* CSN Logo */
+#csnlogo {
+  width: 100%;
+}
 
 /*** Typography ***/
 
